@@ -1,0 +1,14 @@
+.services-container{
+    background-image: linear-gradient(to right, rgb(255, 249, 249), rgb(104, 104, 104));
+}
+
+.services-col{
+    background-color: rgba(226, 226, 226, 1);
+    border-right : 1px solid white;
+
+    
+}
+
+.services-col:last-child{
+    border-right : none
+}
