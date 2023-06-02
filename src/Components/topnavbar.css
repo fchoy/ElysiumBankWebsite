@@ -3,14 +3,4 @@
     background-color: white;
 }
 
-.topnavbar-button{
-    color : black;
-    font-weight : 600;
-}
-
-.topnavbar-button:hover{
-    background-color : white;
-    border : 2px solid black;
-    color : black;
-}
 

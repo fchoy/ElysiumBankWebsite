@@ -5,9 +5,21 @@
 .services-col{
     background-color: rgba(226, 226, 226, 1);
     border-right : 1px solid white;
-
-    
+    height : 175px;
 }
+
+@media (max-width: 991px){
+    .services-col{
+        border-right : none;
+        border-bottom : 1px solid white;
+        height: 200px;
+    }
+
+    .services-col:last-child{
+        border-bottom : none
+    }
+}
+
 
 .services-col:last-child{
     border-right : none

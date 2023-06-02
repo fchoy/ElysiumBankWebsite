@@ -10,69 +10,61 @@ import { Container, Row } from 'react-bootstrap';
 
 const body = () => {
   return (
-    <Carousel className="container-fluid w-100 body-carousel d-flex flex-row justify-content-center align-items-center" variant="light" interval={null} style={{height : "725px"}}>
+    <Carousel className="container-fluid body-carousel pt-5 pb-5" variant="light" interval={null}>
       
-      <Carousel.Item className="pb-3">
-        <Row className="align-items-center d-flex flex-row">
-          <Container className="container-fluid d-flex flex-column w-auto align-items-center" style={{}}>
-            <h3 className='text-light'>Get Paid To Bank With Elysium</h3>
-            <p className='text-light'>Get $300 when you open up a new checking account with us.</p>
+      <Carousel.Item className="pb-md-3">
+        <Row className="col-auto align-items-center justify-content-center d-flex flex-lg-row flex-column">
+          <Container className="container-fluid d-flex flex-column w-auto align-items-center pb-3 carousel-text-container">
+            <h3 className='text-light text-center'>Get Paid To Bank With Elysium</h3>
+            <p className='text-light text-center'>Get $300 when you open up a new checking account with us.</p>
             <button className="btn btn-primary">Get Offer</button>
           </Container>
 
             <img
-              className="img-fluid col-lg-6"
+              className="img-fluid col-7 carousel-image"
               src={NewAccountImage}
               alt="First slide"
-              //style={{height: "810px", objectFit : "fill"}}
-              style={{position : "relative", left: "-10%"}}
               />
         </Row>
       </Carousel.Item>
 
-      <Carousel.Item className="pb-3">
-        <Row className="align-items-center d-flex flex-row row">
-          <Container className="container-fluid d-flex flex-column align-items-center col-lg-6" style={{width: "30%", textAlign : "center"}}>
-            <h3 className='text-light'>Need Some Guidance With Your Money?</h3>
-            <p className='text-light'>Speak with one of our highly qualified finanical advisors for help with budgeting, personal spending, or investment strategies.</p>
+      <Carousel.Item className="pb-md-3">
+        <Row className=" align-items-center justify-content-center d-flex flex-lg-row flex-column">
+          <Container className="container-fluid col-lg-5 d-flex flex-column align-items-center pb-3 carousel-text-container">
+            <h3 className='text-light text-center'>Need Some Guidance With Your Money?</h3>
+            <p className='text-light text-center'>Speak with one of our highly qualified finanical advisors for help with budgeting, personal spending, or investment strategies.</p>
             <button className="btn btn-primary">Speak With A Financial Advisor Today</button>
           </Container>
 
             <img
-              className="img-fluid col-lg-6"
+              className="img-fluid col-7 carousel-image"
               src={FinancialAdvisorImage}
-              alt="First slide"
-              //style={{height: "810px", objectFit : "fill"}}
-              style={{width: "50%", position: "relative", right: "10%"}}
+              alt="Second slide"
               />
         </Row>
       </Carousel.Item>
 
-      <Carousel.Item className="pb-3">
-        <Row className="align-items-center d-flex flex-row">
-          <Container className="container-fluid d-flex flex-column w-auto align-items-center" style={{width: "30%", textAlign : "center"}}>
-            <h3 className='text-light'>Finding A New Place To Settle Down?</h3>
-            <p className='text-light'>
-              Don't wait any longer. Get a low interest home loan starting at 2.49% APY.
-            </p>
+      <Carousel.Item className="pb-md-3">
+        <Row className="col-auto align-items-center justify-content-center d-flex flex-lg-row flex-column">
+          <Container className="container-fluid d-flex flex-column w-auto align-items-center pb-3 carousel-text-container">
+            <h3 className='text-light text-center'>Finding A New Place To Settle Down?</h3>
+            <p className='text-light text-center'>Don't wait any longer. Get a low interest home loan starting at 2.49% APY.</p>
             <button className="btn btn-primary">View Rates</button>
           </Container>
 
             <img
-              className="img-fluid col-lg-6"
+              className="img-fluid col-7 carousel-image"
               src={HomeLoanImage}
-              alt="First slide"
-              //style={{height: "810px", objectFit : "fill"}}
-              style={{position : "relative", left: "-10%"}}
+              alt="Third slide"
               />
         </Row>
       </Carousel.Item>
 
-      <Carousel.Item className="pb-3">
-        <Row className="align-items-center d-flex flex-row">
-          <Container className="container-fluid d-flex flex-column w-auto align-items-center" style={{width: "35%", textAlign : "center"}}>
-            <h3 className='text-light'>Businesses, We Got Your Back.</h3>
-            <p className="w-100 gap-3 text-light">
+      <Carousel.Item className="pb-md-3">
+        <Row className="col-auto align-items-center justify-content-center d-flex flex-lg-row flex-column">
+          <Container className="container-fluid d-flex flex-column w-auto align-items-center pb-3 carousel-text-container">
+            <h3 className='text-light text-center'>Businesses, We Got Your Back.</h3>
+            <p className='text-light text-center'>
               Looking for capital to expand your business? Look no further. 
               <br/>
               Low interest business loans starting only at 2% APY.
@@ -83,11 +75,9 @@ const body = () => {
           </Container>
 
             <img
-              className="img-fluid col-lg-6"
+              className="img-fluid col-7 carousel-image"
               src={LargeBusinessImage}
-              alt="First slide"
-              //style={{height: "810px", objectFit : "fill"}}
-              style={{position : "relative", left: "-10%"}}
+              alt="Fourth slide"
               />
         </Row>
       </Carousel.Item>

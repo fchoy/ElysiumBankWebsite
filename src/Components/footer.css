@@ -1,0 +1,5 @@
+@media (max-width: 768px){
+    .footer-row{
+        border-bottom : 1px solid silver;
+    }
+}

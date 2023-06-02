@@ -1,3 +1,18 @@
 .body-carousel{
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(104, 104, 104));
 }
+
+
+@media (min-width : 1400px) {
+    .carousel-text-container{
+        padding-left : 10%;
+    }
+
+    .carousel-image{
+        padding-right : 10%;
+    }
+
+    .carousel-image-two{
+    
+    }
+}

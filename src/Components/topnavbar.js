@@ -5,12 +5,12 @@ import { Nav, Navbar, Form, Button, Container } from 'react-bootstrap';
 
 const topnavbar = () => {
   return (
-    <Container fluid="true" className="w-auto top-nav-container d-flex justify-content-end mb-3">
+    <Container fluid="true" className="w-auto d-flex justify-content-end mt-1 mb-1">
         <Navbar className='col-sm-5 row d-flex flex-lg-row flex-column justify-content-lg-evenly justify-content-center align-items-center m-lg-0 m-auto'>
 
-            <Nav.Item className="col-lg-3 col-auto row"><Button type="button" variant="outline-light" className="col-lg-auto btn-link text-decoration-none mt-auto mb-auto topnavbar-button" href="/login">Login</Button></Nav.Item>
+            <Nav.Item className="col-lg-3 col-auto row"><Button type="button" variant="outline-light" className="col-lg-auto btn-link text-decoration-none mt-auto mb-auto fs-6 text-primary" style={{fontWeight : "600"}} href="/login">Login</Button></Nav.Item>
 
-            <Nav.Item className="col-lg-3 col-auto row"><Button type="button" variant="outline-light" className="col-lg-auto btn-link text-decoration-none mt-auto mb-auto topnavbar-button" href="/register">Register</Button></Nav.Item>
+            <Nav.Item className="col-lg-3 col-auto row"><Button type="button" variant="outline-light" className="col-lg-auto btn-link text-decoration-none mt-auto mb-auto fs-6 text-primary" style={{fontWeight : "600"}} href="/register">Register</Button></Nav.Item>
 
             <Nav.Item className="col-lg-6 col-12 row">
                 <Form className="d-flex h-100 mt-auto mb-auto">
