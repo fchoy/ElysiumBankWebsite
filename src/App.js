@@ -4,6 +4,7 @@ import TopNavBar from './Components/topnavbar'
 import Body from './Components/body'
 import Services from './Components/services'
 import Footer from './Components/footer'
+import Credits from './Components/credits'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Body/>
     <Services/>
     <Footer/>
+    <Credits/>
    </div>
   );
 }
